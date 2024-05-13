@@ -1,0 +1,126 @@
+.navbar{
+    background-color: rgb(12, 149, 240);
+    box-shadow: 2px 2px 5px 3px rgb(0, 109, 172);
+}
+.navbar-brand{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-right: 50%;
+}
+.navbar-toggler{
+    color: aliceblue;
+}
+.nav-link{
+    color: rgb(224, 227, 230);
+    margin-left: 50px;
+}
+.nav-link:hover{
+    color: white;
+    font-size: 22px;
+}
+svg{
+    margin-left: 10px;
+}
+.mbr-section-title{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.card-title{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 100px;
+    max-width: 100%;
+   
+    justify-content: center;
+}
+.card-img-overlay{
+    display: flex;
+    height: auto;
+    max-width: 100%;
+   flex-direction: column;
+}
+.card-img{
+    height: 820px;
+    max-width: 100%;
+}
+.card-text{
+   color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+    max-width: 100%;
+   
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.mbr-section-title{
+color: rgb(197, 192, 192);
+font-size: 20px;
+}
+.btn{
+height: 60px;
+width: 200px;
+}
+.btn1{
+height: 40px;
+width: 100%;
+background-color: rgb(29, 76, 230);
+border-radius: 10px;
+color: white;
+border: none;
+}
+strong{
+font-size: 60px;
+font-weight: 800;
+}
+.text{
+font-weight: 400;
+font-size: 30px;
+margin-bottom: 150px;
+}
+.text-black{
+font-size: 25px;
+text-decoration: none;
+font-weight: 400;
+display: block;
+}ul{
+list-style-type: none;
+}
+.container{
+padding: 20px;
+
+
+}
+.image{
+height: auto;
+max-width: 100%;
+}
+.footer{
+display: flex;
+justify-content: start;
+flex-direction: row;
+gap: 30px;
+height: auto;
+max-width: 100%;
+
+}
+h3{
+color: rgb(155, 152, 152);
+}
+li{
+font-size: 20px;
+color: rgb(155, 152, 152);
+}
+.bg{
+background-color: whitesmoke;
+}

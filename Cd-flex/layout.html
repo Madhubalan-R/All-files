@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Layout</title>
+    <style>
+        *{
+            
+            padding: 0;
+        }
+         body{
+            background-attachment: fixed;
+            background-image: url(icegif1.gif);
+            background-size: cover;
+         }
+   .part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+   }
+   .col{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    color: red;
+    border-radius: 10px;
+    margin-left: 20px;
+   }
+
+    .col:hover{
+        height: 310px;
+        width: 80%;
+        transition: all .3s;
+    }
+
+    
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+ul {
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a {
+  display: block;
+  color: rgb(192, 188, 188);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all .3s ease;
+}
+li a:hover{
+ color: white;
+ border-bottom: 2px solid green;
+}
+
+
+
+
+
+h1{
+    margin-top: 100px;
+    padding: 110px;
+    color: white;
+    background-color: green;
+    border: 5px solid greenyellow;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    position: static;
+
+}
+   
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        
+        <ul>
+           <li><a href="#Flowers">Flowers</a></li>
+           <li><a href="#birds">Birds</a></li>
+            <li><a href="#animals">Animals</a></li>
+            <li><a href="#mountains">Mountains</a></li>
+        </ul>
+    </nav>
+<section id="Flowers">
+    <center><h1>Flowers</h1></center>
+    <div class="part">
+        <img src="flower1.jpg" alt="F1"class="col">
+        <img src="flower2.jpg" alt="F1" class="col">
+        <img src="flower3.jpg" alt="F1" class="col">
+        <img src="flower4.jpg" alt="F1" class="col">
+        
+    </div>
+    <div class="part">
+        <img src="flower5.jpg" alt="F1" class="col">
+        <img src="flower6.jpg" alt="F1" class="col">
+    </div>
+    <div class="part">
+        <img src="flower7.jpg" alt="F1" class="col">
+        <img src="flower8.jpg" alt="F1" class="col">
+        <img src="flower9.jpg" alt="F1" class="col">
+    </div>
+</section>
+<section id="animals">
+    <center><h1>Animals</h1></center>
+    <div class="part">
+        <img src="animal1.jpg" alt="F1" class="col">
+        <img src="animal2.jpg" alt="F1" class="col">
+        <img src="animal3.jpg" alt="F1" class="col">
+        <img src="animal4.jpg" alt="F1" class="col">
+    </div>
+    <div class="part">
+        <img src="animal5.jpg" alt="F1" class="col">
+        <img src="animal6.jpg" alt="F1" class="col">       
+    </div>
+    <div class="part">
+        <img src="animal7.jpg" alt="F1" class="col">
+        <img src="animal8.jpg" alt="F1" class="col">
+        <img src="animal9.jpg" alt="F1" class="col">    
+    </div>
+</section>
+<section id="birds">
+    <center><h1>Birds</h1></center>
+    <div class="part">
+        <img src="bird1.jpg" alt="F1" class="col">
+        <img src="bird2.jpg" alt="F1" class="col">
+        <img src="bird6.jpg" alt="F1" class="col">
+        <img src="bird4.jpg" alt="F1" class="col">
+    </div>
+    <div class="part">
+        <img src="bird5.jpg" alt="F1" class="col">
+        <img src="bird3.jpg" alt="F1" class="col">       
+    </div>
+    <div class="part">
+        <img src="bird7.jpg" alt="F1" class="col">
+        <img src="bird8.jpg" alt="F1" class="col">
+        <img src="bird9.jpg" alt="F1" class="col">    
+    </div>
+</section>
+<section id="mountains">
+    <center><h1>Mountains</h1></center>
+    <div class="part">
+        <img src="mount1.jpg" alt="F1" class="col">
+        <img src="mount2.jpg" alt="F1" class="col">
+        <img src="mount3.jpg" alt="F1" class="col">
+        <img src="mount4.jpg" alt="F1" class="col">
+    </div>
+    <div class="part">
+        <img src="mount5.jpg" alt="F1" class="col">
+        <img src="mount6.jpg" alt="F1" class="col">       
+    </div>
+    <div class="part">
+        <img src="mount7.jpg" alt="F1" class="col">
+        <img src="mount8.jpg" alt="F1" class="col">
+        <img src="mount9.jpg" alt="F1" class="col">    
+    </div>
+</section>
+
+
+    
+
+</body>
+
+
+
+</html>
